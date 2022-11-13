@@ -2,6 +2,9 @@
 
 This Action will automate the process of building and depolying react app to gh-pages.
 
+## Notice:  
+This fork introduces the `--force` flag. Do not use unless you know what you're doing
+
 ## Action 
 Add this action inside your Repository's Actions
 
