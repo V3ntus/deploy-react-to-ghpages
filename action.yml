@@ -9,7 +9,7 @@ runs:
   steps: 
     - run : npm i --force
       shell: bash
-    - run : npm ci
+    - run : npm ci --force
       shell: bash
     - run : npm run build
       shell: bash
