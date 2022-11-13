@@ -7,7 +7,7 @@ branding:
 runs: 
   using: 'composite'
   steps: 
-    - run : npm i
+    - run : npm i --force
       shell: bash
     - run : npm ci
       shell: bash
